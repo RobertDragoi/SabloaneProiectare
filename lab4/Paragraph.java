@@ -1,3 +1,4 @@
+package lab4;
 public class Paragraph implements Element {
     String text;
     public Paragraph(String text) {

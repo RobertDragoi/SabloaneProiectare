@@ -1,3 +1,4 @@
+package lab23;
 import java.util.ArrayList; 
 public class Section implements Element {
     public String title;

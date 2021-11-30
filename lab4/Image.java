@@ -1,4 +1,4 @@
-
+package lab4;
 public class Image implements Element{
     String imageName;
     public Image(String imageName) {

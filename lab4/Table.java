@@ -1,4 +1,4 @@
-
+package lab4;
 public class Table implements Element{
     String title;
     public Table(String title) {

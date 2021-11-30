@@ -1,3 +1,4 @@
+package lab4;
 public class Author {
     String name;
     public Author(String name) {
