@@ -8,3 +8,9 @@ https://github.com/RobertDragoi/SabloaneProiectare/tree/cbead77f49f74980b3fd41c4
 
 - remove chapter and subchapter classes
 - the leaf classes (like Image) does not need to have an array of child elements, and the method addElement() should have an empty implementation
+
+# Feedback lab4:
+https://github.com/RobertDragoi/SabloaneProiectare/commit/3cbdf08caf3c373843981b0b0ee1208f863c6ff3
+
+Image proxy constructor just hold the url.
+- in print() method, you should load the image, and print the loaded image.
