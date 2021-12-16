@@ -5,7 +5,6 @@ public class ImageProxy implements Element {
     public String url;
     public ImageProxy(String url){
         this.url = url;
-        loadImage();
     }
     Image loadImage(){
         if(realImage == null){
@@ -15,5 +14,7 @@ public class ImageProxy implements Element {
     }
 
     public void print(){  
+        loadImage();
+        realImage.print();
     }
 }
