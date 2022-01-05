@@ -21,6 +21,9 @@ public class Book {
     // public Chapter getChapter(int index){
     //     return chapters.get(index);
     // }
+    public <T> T accept(Visitor<T> visitor) {
+        return visitor.visit(this);
+    }
     public void print(){
         System.out.println("Book: "+this.title+"\n");
         System.out.println("Authors:");

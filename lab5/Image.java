@@ -10,6 +10,9 @@ public class Image implements Element{
             e.printStackTrace();
             }
     }
+    public <T> T accept(Visitor<T> visitor) {
+        return visitor.visit(this);
+    }
     public void print(){
         System.out.println("Image with name: "+this.imageName);
     }

@@ -12,7 +12,9 @@ public class ImageProxy implements Element {
         }
         return realImage;
     }
-
+    public <T> T accept(Visitor<T> visitor) {
+        return visitor.visit(this);
+    }
     public void print(){  
         loadImage();
         realImage.print();

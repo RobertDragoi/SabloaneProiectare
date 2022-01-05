@@ -12,6 +12,9 @@ public class Paragraph implements Element {
     public String getText() {
         return this.text;
     }
+    public <T> T accept(Visitor<T> visitor) {
+        return visitor.visit(this);
+    }
     public void print(){
         if (alignStrategy == null) {
             System.out.println("Paragraph: "+this.text);
