@@ -1,4 +1,4 @@
-package lab5;
+package lab56;
 
  public class BookStatistics implements Visitor<Void>{
     private int imageCount;

@@ -1,4 +1,4 @@
-package lab5;
+package lab56;
 public class Paragraph implements Element {
     String text;
     private AlignStrategy alignStrategy;

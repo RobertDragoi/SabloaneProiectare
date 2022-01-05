@@ -1,4 +1,4 @@
-package lab5;
+package lab56;
 
 public class TableOfContents implements Element{
     private Book book;

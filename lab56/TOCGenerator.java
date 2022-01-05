@@ -1,4 +1,4 @@
-package lab5;
+package lab56;
 import java.util.stream.Collectors;
 public class TOCGenerator implements Visitor<String> {
     private int sectionDepth = 0;

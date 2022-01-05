@@ -1,4 +1,4 @@
-package lab5;
+package lab56;
 
 public class AlignLeft implements AlignStrategy{
     public void render(Paragraph paragraph) {

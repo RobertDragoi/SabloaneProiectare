@@ -1,4 +1,4 @@
-package lab5;
+package lab56;
 import java.util.ArrayList; 
 public class Book {
     String title;

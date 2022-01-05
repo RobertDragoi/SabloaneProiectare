@@ -1,4 +1,4 @@
-package lab5;
+package lab56;
 public class Author {
     String name;
     String surname;

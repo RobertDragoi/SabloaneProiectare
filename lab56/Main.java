@@ -1,4 +1,4 @@
-package lab5;
+package lab56;
 public class Main {
     public static void Printing(){
         DocumentManager.getInstance().getBook().print();
