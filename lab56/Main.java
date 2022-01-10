@@ -6,6 +6,7 @@ public class Main {
 public static void main(String[] args) 
 {
      Book book = new Book("O carte");
+     book.addAuthor(new Author("George","Stresu"));
         TableOfContents toc = new TableOfContents(book);
         book.addContent(toc);
         Paragraph p1 = new Paragraph("Paragraph 1");
