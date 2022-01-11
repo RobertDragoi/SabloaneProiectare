@@ -14,3 +14,11 @@ https://github.com/RobertDragoi/SabloaneProiectare/commit/3cbdf08caf3c373843981b
 
 Image proxy constructor just hold the url.
 - in print() method, you should load the image, and print the loaded image.
+
+# Feedback lab5-6:
+https://github.com/RobertDragoi/SabloaneProiectare/tree/1e28604cb990abfbd42ff0d0a37bdde3ac951483
+
+in visitor do not all accept. accept is responsible for traverse the data structure
+- visit methods are called to do an operaton on the specifi element.
+
+# Proposed grade: 9.5
